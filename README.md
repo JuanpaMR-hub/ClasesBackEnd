@@ -1,14 +1,7 @@
-## Clase 2
+## Clase 3
 
-Ya comenzamos a implementar el uso de los Templates
+Como ya tenemos conocimiento del uso de templates, veremos como podemos hacer para brindarle datos desde nuestras views
 
-### Template
-El template es uno de los componentes de la arquitectura MVC, en este caso se definen como lo visual de Django donde encontraremos nuestros HTML
+Para esto se tiene que pasar un diccionario. Generalmente se crea un diccionario llamado contexto, el cual se le pasa mediante los argumentos a render
 
-
-### Static
-La carpeta static contiene todos los archivos de una página estatica, estos son archivos css, js e imagenes
-Para esto se crea una carpeta llamada static dentro de la app y se crean subcarpetas
-
-### Load static
-Se tiene que cargar el static en el html al principio para poder usarlos
+Ademas de esto aprenderemos a pasar datos desde una página a otra por medio del url
