@@ -1,16 +1,14 @@
-## Clase 1
+## Clase 2
 
-En esta clase vimos como poder iniciar un proyecto en Django, para esto creamos un ambiente virtual utilizando venv de python
-python -m venv venv
+Ya comenzamos a implementar el uso de los Templates
 
-una vez creamos este ambiente tenemos que activarlo
-`venv\Scripts\activate.bat`
+### Template
+El template es uno de los componentes de la arquitectura MVC, en este caso se definen como lo visual de Django donde encontraremos nuestros HTML
 
-Dentro del ambiente instalamos django
-`pip install django`
 
-y finalmente creamos nuestro proyecto y app
+### Static
+La carpeta static contiene todos los archivos de una página estatica, estos son archivos css, js e imagenes
+Para esto se crea una carpeta llamada static dentro de la app y se crean subcarpetas
 
-`django-admin startproject miProyecto . `
-`django-admin startapp miApp`
-
+### Load static
+Se tiene que cargar el static en el html al principio para poder usarlos
