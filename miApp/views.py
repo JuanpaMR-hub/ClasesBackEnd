@@ -15,10 +15,3 @@ def productos(request):
     context['mensaje'] = "Este es un mensaje!"
     context['productos'] = productos_list
     return render(request,'productos.html',context)
-
-def detalle_producto(request,id):
-    producto = None
-    for p in productos_list:
-        if p['id'] == id:
-            producto = p
-    return render(request, 'detalle_producto.html',{'producto':producto})
