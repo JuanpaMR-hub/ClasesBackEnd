@@ -7,6 +7,6 @@ Para esto se tiene que pasar un diccionario. Generalmente se crea un diccionario
 
 ## ¿Como instalar?
 Una vez clonado el repositorio debe:
-1. Crear un ambiente virtual -> ´python -m venv venv´
-2. Ingresar al ambiente virtual -> ´venv\Scripts\activate.bat´
-3. Instalar dependencias -> ´pip install -r requirements.txt´ 
+1. Crear un ambiente virtual -> `python -m venv venv`
+2. Ingresar al ambiente virtual -> `venv\Scripts\activate.bat`
+3. Instalar dependencias -> `pip install -r requirements.txt`
